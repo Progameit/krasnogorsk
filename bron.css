@@ -1,0 +1,158 @@
+body {width: 100%; 
+    height:100%; 
+    display: flex; 
+    flex-direction: column; 
+	justify-content: space-between;
+	margin: 0px;}
+header {width: 100%; 
+    height:90px; 
+	background: #1a1a1d; 
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center;}
+main {width: 100%; 
+    height: auto;
+	background-image: url(img/backw.png); 
+	display: flex; 
+	flex-direction: column;
+	margin: 0 px;}
+.fdiv
+{
+	display: none;
+}
+a.fssilka:hover+div
+{
+	display: block;
+}
+.sdiv
+{
+	display: none;
+}
+a.sssilka:hover+div
+{
+	display: block;
+}
+.tdiv
+{
+	display: none;
+}
+a.tssilka:hover+div
+{
+	display: block;
+}
+.fodiv
+{
+	display: none;
+}
+a.fossilka:hover+div
+{
+	display: block;
+}
+footer {width:100%; 
+    height:100px; 
+	background: #1a1a1d; 
+	display: flex;}
+#nadpbron {background-color: #228822;
+        width: 100%;
+        height: 90px;
+		align-items: center;}
+.bronn {color: #d2c1b5;
+    font-style: italic;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-shadow: 0.5px 0.5px 5px black, 0 0 1em #d2c1b5;}}
+.zas {text-decoration: underline;
+	font-style: italic;}
+.vys {text-decoration: underline;
+	font-style: italic;}        
+.doplata {text-decoration: underline;
+	font-style: italic;}
+.name {font-style: italic;}
+.fam {font-style: italic;}
+.email {font-style: italic;}
+.vybornom {font-style: italic;}
+.isosed {font-style: italic;}
+.famsosed {font-style: italic;}
+.pozh {font-style: italic;}
+.otvet {font-style: italic;}
+
+.Zast {height: 80px; 
+    width: 120px; 
+	border-radius: 50px;}
+.pp {font-size:15pt;}
+
+* {
+	box-sizing:border-box;
+}
+.nav {
+    display: inline-flex;
+	justify-content: center;
+    position: relative;
+	max-width: 100%;
+    padding: 0 20px;
+    border-radius: 40px;
+} 
+.nav-item {
+	color: #d2c1b5;
+	padding: 20px;
+	text-decoration: none;
+	transition: .3s;
+	margin: 0 6px;
+	z-index: 1;
+	font-weight: 500;
+	position: relative;}
+
+.nav-item:not(.is-active):hover { color: #8c7b73;
+	transition: .4s;
+	}
+
+* {box-sizing:border-box;}
+
+.copy {
+	vertical-align: text-bottom;
+	padding-top: 65px;
+	color: #d2c1b5;
+}
+.kontakt {
+	margin-left: 0%;
+	margin-top: 30px;
+	text-decoration: none;
+	color: #d2c1b5;
+}
+.about {
+	margin-left: 12%;
+	margin-right: auto;
+	margin-top: 30px;
+	text-decoration: none;
+	color: #d2c1b5;
+}
+.bron {
+	margin-left: 12%;
+	margin-top: 30px;
+	text-decoration: none;
+	color: #d2c1b5;
+}
+.Geo {
+	margin-left: 12%; 
+	margin-top: 30px;
+	text-decoration: none;
+	color: #d2c1b5;
+}
+.Geo:hover {
+	color:#8c7b73;
+	transition: .4s;
+}
+.bron:hover {
+	color:#8c7b73;
+	transition: .4s;
+}
+.about:hover {
+	color:#8c7b73;
+	transition: .4s;
+}
+.kontakt:hover {
+	color:#8c7b73;
+	transition: .4s;
+}
+.main {
+	text-align: center;
+}

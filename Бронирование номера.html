@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Бронирование номера</title>
+   <link rel="stylesheet" href="bron.css">
+   <link rel="shortcut icon" href="img\favicon.png" type="image/png">
+   <script src="Book.js"></script>
+ </head>
+ <body>
+ <header>
+    <img src="img\Zastavka.jpg" class="Zast">
+    <h1 class="bronn">Бронирование номера в "Galaxy Hotel"</h1>
+	<nav class="nav">
+		<a href="index.html" class="nav-item" active-color="#614b3e" target="_blank" title="Открыть Главную страницу"><h4>Главная</h4></a>
+		<a href="Бронирование номера.html" class="nav-item" active-color="#614b3e" title="Открыть Бронирование номера"><h4>Бронь номера</h4></a>
+		<a href="obotele.html" class="nav-item" active-color="#614b3e" target="_blank" title="Открыть информацию об отеле"><h4>Об отеле</h4></a>
+		<span class="nav-indicator"></span>
+	</nav>	
+</div>
+</header>
+<main>
+<div class="main">
+    <h3 class="name"><b>Введите Ваше имя*:</b></h3>
+	<p><input maxlength="30" size="40" id="name" required></p>
+	<h3 class="fam"><b>Введите Вашу фамилию*:</b></h3>
+	<p><input maxlength="30" size="40" id="famil" required></p>
+    <h3 class="email"><b>Введите E-mail*:</b></h3>
+	<p><input type="email" size="40" id="email" required></p>
+	<h3 class="vybornom"><b>Какой Вам нужен номер*?</b></h3>
+	<h3><input type="radio" id="nom" value="S"><a href="#" class="fssilka">Small Room</a><div class="fdiv"><img src="img\Small.jpg"><br>3785₽/ночь</div></h3>
+	<h3><input type="radio" id="nom" value="M"><a href="#" class="sssilka">Medium Room</a><div class="sdiv"><img src="img\Med.jpg"><br>4972₽/ночь</div></h3>
+	<h3><input type="radio" id="nom" value="J"><a href="#" class="tssilka">Junior Room</a><div class="tdiv"><img src="img\Jun.jpg"><br>8351₽/ночь</div></h3>
+	<h3><input type="radio" id="nom" value="V"><a href="#" class="fossilka">VIP Room</a><div class="fodiv"><img src="img\VIP.jpg"><br>18880₽/ночь</div></h3>
+	<h3 class="imsosed"><b>Введите имена людей, которые будут проживать с Вами(через запятую)*:</b></h3>
+	<p><input maxlength="150" size="40" id="char"></p>
+	<h3 class="pozh"><b>Введите ваши пожелания:</b></h3>
+	<textarea id="Pozh" rows="10" cols="45"></textarea>
+	<p><input type="submit" name="submit"> <input type="reset" onclick="ClearFields();"></p>
+	
+</div>
+ </main>
+ <footer>
+    <p class="copy"> &copy; Все права защищены</p>
+	<a href="https://vk.com/sasha1234567893" class="kontakt" target="_blank" title="Открыть нашу страницу в ВК" active-color="#614b3e"><h4> Мы в соц.сетях </h4></a>
+	<a href="https://www.google.com/maps/place/Galaxy+Hotel+Iraklio/@35.3304676,25.1361358,17z/data=!4m18!1m9!3m8!1s0x149a5a2b73f46d8b:0x244c0eec9e614f43!2sGalaxy+Hotel+Iraklio!5m2!4m1!1i2!8m2!3d35.3304676!4d25.1383245!3m7!1s0x149a5a2b73f46d8b:0x244c0eec9e614f43!5m2!4m1!1i2!8m2!3d35.3304676!4d25.1383245" class="Geo" target="_blank" title="Открыть наше местоположение" active-color="#614b3e"><h4> Местоположение </h4></a>
+	<a href="Бронирование номера.html" class="bron" target="_blank" title="Открыть страницу бронирования номера" active-color="#614b3e"><h4> Бронирование номера </h4></a>
+	<a href="obotele.html" class="about" target="_blank" title="Открыть страницу о нас" active-color="#614b3e"><h4> О нас</h4></a>
+ </footer>
+ </body>
+ </html>
